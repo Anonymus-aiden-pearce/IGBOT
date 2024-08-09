@@ -9,7 +9,7 @@ read -p "Enter your choice: " user_input
 
 if [ "$user_input" == "1" ]; then
     echo "Starting the bot..."
-    python lucifer_bot.py
+    python bot.py
 elif [ "$user_input" == "2" ]; then
     echo "Exiting..."
     exit 0
